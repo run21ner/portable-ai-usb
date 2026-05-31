@@ -1,0 +1,37 @@
+# ── AI Engine (Windows) ──────────────────────────────────────────
+ollama/
+!ollama/.gitkeep
+
+# ── AI Engine (Mac) ──────────────────────────────────────────────
+ollama_mac/
+!ollama_mac/.gitkeep
+
+# ── Chat Interface (Windows) ─────────────────────────────────────
+anythingllm/
+!anythingllm/.gitkeep
+
+# ── Chat Interface (Mac) ─────────────────────────────────────────
+anythingllm_mac/
+!anythingllm_mac/.gitkeep
+
+# ── User Data (chats, settings, logs) ────────────────────────────
+anythingllm_data/
+!anythingllm_data/.gitkeep
+
+# ── Model Files ──────────────────────────────────────────────────
+models/
+!models/.gitkeep
+
+# ── Temp / Watcher scripts written at runtime ────────────────────
+*.ps1.tmp
+watcher.ps1
+
+# ── macOS noise ──────────────────────────────────────────────────
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows noise ────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
