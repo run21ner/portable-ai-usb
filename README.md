@@ -60,7 +60,11 @@ No separate install step needed. The first time you run `start-mac.command`, it 
 
 ## 🤖 Loading a Model
 
-Once the AI is running, open AnythingLLM and connect it to Ollama at `http://localhost:11434`.
+You can either download models from `https://huggingface.co/`
+
+## Or
+
+You can open AnythingLLM and connect it to Ollama at `http://localhost:11434`.
 
 Then pull a model via the terminal (while Ollama is running):
 
@@ -118,6 +122,7 @@ USB Drive/
 ├── anythingllm_mac/          ← AnythingLLM app (Mac)
 └── anythingllm_data/         ← Your chats & settings (portable)
 ```
+If you do not see these folders then do not worry as they will apear after you run the install file.
 
 ---
 
