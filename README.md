@@ -36,8 +36,9 @@ Everything — the engine, the interface, your chats, and the model — lives on
 
 ### Mac
 
-No separate install step needed. The first time you run `start-mac.command`, it will automatically download the Mac version of Ollama and AnythingLLM directly to the USB drive.
-
+1. Open **Terminal** in the project folder and make the scripts executable by running:
+   ```bash
+   chmod +x *.sh
 ---
 
 ## ▶️ How to Use
@@ -49,7 +50,7 @@ No separate install step needed. The first time you run `start-mac.command`, it 
 4. Press `Ctrl+C` in the terminal when done, then follow the shutdown prompt
 
 ### Mac
-1. Double-click **`start-mac.command`**
+1. Double-click **`start-mac.sh`**
 2. First launch: it auto-downloads the Mac engine (~2 min)
 3. The AnythingLLM window opens automatically
 4. Press `Enter` in the terminal to shut down safely
